@@ -62,3 +62,5 @@ Everything is little-endian!
 |`22`|`XY`|goes to coordinates (`RX`, `RY`) for printing|
 |`23`|`XXXXYYYYZ0`|copies `RZ` bytes of data at `XXXX` on disk to `YYYY` in RAM|
 |`23`|`XXXXYYYYZ1`|copies `RZ` bytes of data at `XXXX` in RAM to `YYYY` on disk|
+|`24`|`0X`|prints system character `RX`|
+|`24`|`1X`|prints custom character `RX`|
