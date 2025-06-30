@@ -1,0 +1,2 @@
+# RAM
+RAM is used for temporary storage of both programs and arbitrary data. It is initialized by BIOS which copies the operating system or the required program to RAM, starting from `0x0000` and then starts executing opcodes starting from `0x0000`. Thus, no reading from storage is required at runtime unless reading/writing additional data.
