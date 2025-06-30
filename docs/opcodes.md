@@ -57,4 +57,4 @@ Everything is little-endian!
 |`1d`|`XX`|prints custom character `XX`|
 |`1e`|`XXYYYY`|sets custom character `XX` to character stored at `YYYY`-`YYYY+F`|
 |`1f`|`XXYYYY`|go to `YYYY` if `XX` is pressed on the keyboard|
-|`20`|`0X`|sets color to `RX`'s value|
+|`20`|`XY`|sets text color to `RX`'s value and background color to `RY`'s value|
