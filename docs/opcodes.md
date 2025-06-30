@@ -60,3 +60,5 @@ Everything is little-endian!
 |`20`|`XY`|sets text color to `RX`'s value and background color to `RY`'s value|
 |`21`||clears display|
 |`22`|`XY`|goes to coordinates (`RX`, `RY`) for printing|
+|`23`|`XXXXYYYYZ0`|copies `RZ` bytes of data at `XXXX` on disk to `YYYY` in RAM|
+|`23`|`XXXXYYYYZ1`|copies `RZ` bytes of data at `XXXX` in RAM to `YYYY` on disk|
