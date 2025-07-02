@@ -64,3 +64,4 @@ Everything is big-endian!
 |`23`|`XXXXYYYYZ1`|copies `RZ` bytes of data at `XXXX` in RAM to `YYYY` on disk|
 |`24`|`0X`|prints system character `RX`|
 |`24`|`1X`|prints custom character `RX`|
+|`25`|`0XYYYY`|go to `YYYY` if `RX` is pressed on the keyboard|
