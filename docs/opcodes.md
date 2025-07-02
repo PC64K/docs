@@ -1,5 +1,5 @@
 # Opcodes
-Everything is little-endian!
+Everything is big-endian!
 
 |1st byte|structure|description|
 |-|-|-|
