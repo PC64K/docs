@@ -53,6 +53,8 @@ Everything is big-endian!
 |`1b`|`3X`|sets sound timer value to `RX` Hz|
 |`1b`|`40`|waits for delay timer to finish|
 |`1b`|`41`|waits for sound timer to finish|
+|`1b`|`5X`|saves delay timer value to `RX`|
+|`1b`|`6X`|saves sound timer value to `RX`|
 |`1c`|`XX`|prints system character `XX`|
 |`1d`|`XX`|prints custom character `XX`|
 |`1e`|`XXYYYY`|sets custom character `XX` to character stored at `YYYY`-`YYYY+F`|
