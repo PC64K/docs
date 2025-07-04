@@ -5,7 +5,7 @@ Everything is big-endian!
 |-|-|-|
 |`00`|`XXXX`|sets PC to `XXXX`|
 |`01`|`XXXX`|sets PC to address stored in RAM at `XXXX`|
-|`02`|`XY`|sets PC to `RX << 8 \| RY`|
+|`02`|`XY`|sets PC to `(RX << 8) \| RY`|
 |`03`|`XY`|copies `RX`'s value to `RY`|
 |`04`|`XXXXY0`|copies `RY`'s value to `XXXX`|
 |`04`|`XXXXY1`|copies value at `XXXX` to `RY`|
@@ -67,3 +67,11 @@ Everything is big-endian!
 |`24`|`0X`|prints system character `RX`|
 |`24`|`1X`|prints custom character `RX`|
 |`25`|`0XYYYY`|go to `YYYY` if `RX` is pressed on the keyboard|
+|`26`|`XXXX`|set `Ri` to `XXXX`|
+|`27`|`XXXX`|set `Rj` to `XXXX`|
+|`28`|`XY`|set `Ri` to `(RX << 8) \| RY`|
+|`29`|`XY`|set `Rj` to `(RX << 8) \| RY`|
+|`2a`|`0X`|set `Ri` to `Ri + RX`, sets `Rf`|
+|`2a`|`1X`|set `Rj` to `Rj + RX`, sets `Rf`|
+|`2b`|`0X`|set `Ri` to `Ri - RX`, sets `Rf`|
+|`2b`|`1X`|set `Rj` to `Rj - RX`, sets `Rf`|
