@@ -1,2 +1,2 @@
 # docs
-Documentation for PC64K
+Documentation for PC64K. See [docs/](docs/index.md)
