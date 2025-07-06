@@ -77,3 +77,5 @@ Everything is big-endian!
 |`2b`|`1X`|set `Rj` to `Rj - RX`, sets `Rf`|
 |`2c`|`0X`|read from RAM address `Ri` to `RX`|
 |`2c`|`1X`|read from disk address `Rj` to `RX`|
+|`2c`|`2X`|write to RAM address `Ri` from `RX`|
+|`2c`|`3X`|write to disk address `Rj` from `RX`|
